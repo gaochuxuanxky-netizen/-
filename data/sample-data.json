@@ -1,0 +1,35 @@
+{
+  "profile": {
+    "name": "张同学",
+    "studentId": "20230001",
+    "school": "示例大学",
+    "major": "计算机科学与技术",
+    "grade": "大三",
+    "phone": "13800000000",
+    "email": "student@example.edu.cn",
+    "target": "internet-job"
+  },
+  "courses": [
+    { "name": "数据结构", "credit": 4, "score": 88, "category": "专业核心", "semester": "2025-2026-1" },
+    { "name": "数据库系统", "credit": 3, "score": 91, "category": "专业核心", "semester": "2025-2026-1" },
+    { "name": "软件工程", "credit": 3, "score": 86, "category": "工程实践", "semester": "2025-2026-1" }
+  ],
+  "projects": [
+    {
+      "name": "SmartPath 成长规划系统",
+      "type": "课程项目",
+      "role": "产品与前端开发",
+      "description": "面向大学生的个人发展数据管理、能力评估与简历生成平台。",
+      "tags": ["Qt", "C++", "数据分析", "规划系统"],
+      "impact": 4
+    }
+  ],
+  "achievements": [
+    {
+      "name": "校级创新项目立项",
+      "level": "校级",
+      "date": "2025-10",
+      "description": "参与大学生创新训练计划，完成系统原型设计。"
+    }
+  ]
+}

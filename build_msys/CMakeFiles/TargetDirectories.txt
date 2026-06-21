@@ -1,0 +1,5 @@
+C:/Users/YOGA/Desktop/SmartPath-Qt/build_msys/CMakeFiles/SmartPath.dir
+C:/Users/YOGA/Desktop/SmartPath-Qt/build_msys/CMakeFiles/edit_cache.dir
+C:/Users/YOGA/Desktop/SmartPath-Qt/build_msys/CMakeFiles/rebuild_cache.dir
+C:/Users/YOGA/Desktop/SmartPath-Qt/build_msys/CMakeFiles/SmartPath_autogen_timestamp_deps.dir
+C:/Users/YOGA/Desktop/SmartPath-Qt/build_msys/CMakeFiles/SmartPath_autogen.dir
