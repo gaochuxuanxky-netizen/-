@@ -1,0 +1,40 @@
+SmartPath 大学生智能成长规划系统 — 使用说明
+============================================
+
+【项目位置】
+  桌面\SmartPath-Qt
+
+【快速运行】
+  方式一：双击 release\启动 SmartPath.bat
+  方式二：双击 release\SmartPath.exe
+
+【主要功能】
+  1. 个人档案 — 录入姓名、学号、学校、专业、发展目标等
+  2. 课程管理 — 增删改查课程，支持三种 GPA 算法切换
+  3. 项目经历 — 记录竞赛、实习、科研等，支持标签与影响力评分
+  4. 荣誉奖项 — 按等级分类管理证书与奖项
+  5. 智能分析 — 能力评估、目标差距检测、个性化发展建议（核心创新）
+  6. 简历中心 — 自动整合数据，支持导出 TXT、复制到剪贴板
+  7. 数据管理 — 工具栏支持 JSON 导入/导出、数据库备份
+
+【数据存储】
+  首次运行后，SQLite 数据库保存在：
+  %APPDATA%\SmartPath\smartpath.db
+
+【重新编译】
+  1. 安装 MSYS2 及 Qt6：pacman -S mingw-w64-ucrt-x86_64-qt6-base mingw-w64-ucrt-x86_64-cmake mingw-w64-ucrt-x86_64-ninja
+  2. 双击 build_msys.bat 编译
+  3. 双击 package_release.bat 打包 release 目录
+
+【示例数据】
+  data\sample-data.json 可通过工具栏「导入 JSON」加载演示数据
+
+【系统架构】
+  表现层 UI → 控制层 Controller → 业务层 Service → 数据层 DAO → SQLite
+
+【设计模式】
+  单例模式（ConfigManager、DatabaseManager）
+  工厂模式（DataFactory）
+  策略模式（GpaStrategy）
+
+听老师的话小组：崔子平、高楚煊、黄睿淳、吉翔天
